@@ -1,0 +1,20 @@
+@import "properties.scss";
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $black;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik";
+    text-align: center;
+    min-width: fit-content;
+}
